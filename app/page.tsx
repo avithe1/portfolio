@@ -70,6 +70,8 @@ export default function Home() {
           );
         })}
       </div>
+
+      <div className="w-full text-center"><a target="_blank" href="https://docs.google.com/document/d/10Qj-yX2ILS4x7s_v3GYov2pTdWt1tra8nXNbk2f6DzA/edit?usp=sharing">Resume</a></div>
     </div>
   );
 }
