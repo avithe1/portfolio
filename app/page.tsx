@@ -11,8 +11,8 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center mt-15 gap-10">
-      <div className="flex items-center gap-2">
+    <div className="flex flex-col items-center mt-15 gap-10 p-4">
+      <div className="flex w-full items-center gap-2 justify-center">
         <div>
           Hello 👋, I am{" "}
           <span className="text-3xl text-blue-400 font-bold">Avinash</span>
@@ -23,7 +23,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <p>
+      <p className="w-full text-center">
         I develop frontend web applications with{" "}
         <span className={underLineStyle()}>React/NextJS</span> and{" "}
         <span className={underLineStyle()}>
@@ -49,11 +49,11 @@ export default function Home() {
         ))}
       </ul>
 
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {Object.keys(websiteData.myexpertise).map((key, idx) => {
           return (
             <div
-              className="border border-gray-800 w-[300px] min-h-[200px] rounded p-5 hover:border-gray-400 cursor-pointer transition-all duration-500"
+              className="border border-gray-800 min-w-[300px] min-h-[200px] rounded p-5 hover:border-gray-400 cursor-pointer transition-all duration-500"
               key={idx}
             >
               <h3 className="text-xl font-bold">{key.toUpperCase()}</h3>
