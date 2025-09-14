@@ -1,4 +1,4 @@
-import { SquareArrowOutUpRight } from "lucide-react";
+import { Github, SquareArrowOutUpRight } from "lucide-react";
 import { websiteData } from "./data";
 
 export default function Home() {
@@ -12,10 +12,17 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center mt-15 gap-10">
-      <p>
-        Hello 👋, I am{" "}
-        <span className="text-3xl text-blue-400 font-bold">Avinash</span>.
-      </p>
+      <div className="flex items-center gap-2">
+        <div>
+          Hello 👋, I am{" "}
+          <span className="text-3xl text-blue-400 font-bold">Avinash</span>
+        </div>
+        <div>
+          <a target="_blank" href="https://www.github.com/avithe1">
+            <Github />
+          </a>
+        </div>
+      </div>
       <p>
         I develop frontend web applications with{" "}
         <span className={underLineStyle()}>React/NextJS</span> and{" "}
