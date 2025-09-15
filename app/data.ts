@@ -1,11 +1,6 @@
 export const websiteData = {
   projects: [
     {
-      id: 1,
-      title: "Dribble search clone",
-      link: "https://dribble-search.vercel.app/",
-    },
-    {
       id: 2,
       title: "Superfan Website",
       link: "https://superfansite.vercel.app/",
@@ -34,6 +29,11 @@ export const websiteData = {
       id: 7,
       title: "HighwayCalling",
       link: "https://highwaycalling.com/",
+    },
+    {
+      id: 1,
+      title: "Dribble search clone",
+      link: "https://dribble-search.vercel.app/",
     },
   ],
   myexpertise: {

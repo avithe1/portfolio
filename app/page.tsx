@@ -1,4 +1,9 @@
-import { Github, SquareArrowOutUpRight } from "lucide-react";
+import {
+  Download,
+  Github,
+  Linkedin,
+  SquareArrowOutUpRight,
+} from "lucide-react";
 import { websiteData } from "./data";
 
 export default function Home() {
@@ -71,7 +76,37 @@ export default function Home() {
         })}
       </div>
 
-      <div className="w-full text-center"><a target="_blank" href="https://docs.google.com/document/d/10Qj-yX2ILS4x7s_v3GYov2pTdWt1tra8nXNbk2f6DzA/edit?usp=sharing">Resume</a></div>
+      <div className="w-full  flex gap-1 items-center justify-center">
+        <div>
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/10Qj-yX2ILS4x7s_v3GYov2pTdWt1tra8nXNbk2f6DzA/edit?usp=sharing"
+          >
+            Resume
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            href="https://docs.google.com/document/d/10Qj-yX2ILS4x7s_v3GYov2pTdWt1tra8nXNbk2f6DzA/edit?usp=sharing"
+          >
+            <Download size={14} />
+          </a>
+        </div>
+      </div>
+
+      <div className="w-full flex gap-1 items-center justify-center -mt-10">
+        <div>
+          <a target="_blank" href="https://www.linkedin.com/in/avinashrathod/">
+            Linkedin
+          </a>
+        </div>
+        <div>
+          <a target="_blank" href="https://www.linkedin.com/in/avinashrathod/">
+            <Linkedin size={14} />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
