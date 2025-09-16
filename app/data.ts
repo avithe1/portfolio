@@ -26,11 +26,6 @@ export const websiteData = {
       link: "https://justnodapp.vercel.app/",
     },
     {
-      id: 7,
-      title: "HighwayCalling",
-      link: "https://highwaycalling.com/",
-    },
-    {
       id: 1,
       title: "Dribble search clone",
       link: "https://dribble-search.vercel.app/",
