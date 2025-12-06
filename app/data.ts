@@ -30,6 +30,11 @@ export const websiteData = {
       title: "Dribble search clone",
       link: "https://dribble-search.vercel.app/",
     },
+    {
+      id: 7,
+      title: "EStore: Nextjs Intercepting routes",
+      link: "https://github.com/avithe1/estore",
+    },
   ],
   myexpertise: {
     skills: ["HTML5", "CSS3/Tailwind", "React", "Next.JS", "Typescript"],
